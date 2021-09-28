@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    font-size: 24px;
+}
+.navbar {
+height: 120px;
+width: 100%;
+background-color: transparent;
+margin-top:-20px;
+padding: 0px 20px 0px 0px;
+justify-content:space-evenly;
+background-image: url("./Assets/PurpleTealBlueBackgroundNavBar.webp");
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 10px 10px 10px teal;
+}
+
+.icon {
+border: 2px solid silver
+}
+
+.home:hover{
+    color: teal;
+    background-color:silver;
+}
+
+.portfolio:hover{
+    color: teal;
+    background-color:silver;
+}
+
+.about:hover{
+    color: teal;
+    background-color:silver;
+}
+
+.contact:hover{
+    color: teal;
+    background-color:silver;
+}
+.icon {
+    margin: 0px 0px 0px 0px;
+    height: 120px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.text{
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    flex: auto;
+    flex-basis: content;
+    color: silver;
+}
+.home {
+    padding: 0px 15px 0px 15px;
+    flex: none;
+    flex-basis: content;
+}
+.portfolio {
+    padding: 0px 15px 0px 15px;
+    flex: none;
+    flex-basis: content;
+}
+
+.about{
+    flex: none;
+    padding: 0px 15px 0px 15px;
+    flex-basis: content;
+}
+
+.contact{
+    flex: none;
+    padding: 0px 15px 0px 15px;
+    flex-basis: content;   
+}
+
+h1 {
+    text-align: center;
+    color: silver;
+    text-shadow: 8px 8px 8px purple;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: center;
+    color: silver;
+    text-shadow: 8px 8px 8px purple;
+    font-size: 3rem;
+}
+
+.titleelements {
+    margin-top: 20px;
+}
