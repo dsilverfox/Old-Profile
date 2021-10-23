@@ -344,3 +344,30 @@ ul {
   color:#532851;
 }
 
+/*Writing Page*/
+.writingcontainer1 {
+  display: grid;
+  grid-template-areas: 'writingleft writingcenter writingright';
+  grid-template-columns: '40vw 20vw 40vw';
+}
+
+.writingleft{
+  margin-left:5vh;
+  display:grid;
+  grid-area: writingleft;
+  align-items:baseline;
+}
+.writingcenter{
+  width: 20vw;
+  height: 100%;
+  margin-top: 5vh;
+  display:grid;
+  grid-area:writingcenter;
+
+}
+.writingright{
+  margin-right:5vw;
+  display:grid;
+  grid-area:writingright;
+  align-items:baseline;
+}
