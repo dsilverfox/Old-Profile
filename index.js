@@ -4,6 +4,7 @@
 const slides = document.getElementsByClassName("carrousel-item")
 let slidePosition = 0
 const totalSlides = slides.length
+
 // const colorThief = new ColorThief()
 
 /* EVENT LISTENERS */
@@ -71,7 +72,6 @@ function getDominantColor() {
     }
 }
 //END CAROSEL
-
 //Clear contact form.
 window.onbeforeunload = () => {
   for(const form of document.getElementsByTagName('form')) {
