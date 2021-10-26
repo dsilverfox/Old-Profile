@@ -215,10 +215,12 @@ img {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 50%;
+  top: 40%;
+  bottom: 50%;
   left: 3%;
   right: 3%;
   transform: translateY(-50%);
+
 }
 
 /* ANIMATIONS */
