@@ -322,39 +322,16 @@ img {
 .dropdown:hover .dropdown-content {display: block;}
 
 /*Resume Page*/
-.contact {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+.resume {
+  height: 100vw;
+  width:100%;
 }
-
-.line1{
-  margin-top: 3rem;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.5rem;
-  color: #532851;
+.responsive-resume {
+  margin-left: 25vw;
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
 }
-
-p, ul, li{
-  margin: 1rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-ul {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color:#532851;
-}
-li{
-  list-style-type: none;
-  font-size: 1rem;
-  font-weight:bold;
-}
-
-p{
-  font-size: .5rem;
-}
-
 /*Resume Animations*/
  .rEntrance {
 	-webkit-animation: rEntrance 0.6s ease-out both;
