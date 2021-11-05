@@ -337,12 +337,59 @@ img {
 
 p, ul, li{
   margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
+  font-size: 1.25rem;
   font-weight: bold;
   color:#532851;
 }
+li{
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight:bold;
+}
+
+p{
+  font-size: .5rem;
+}
+
+/*Resume Animations*/
+ .rEntrance {
+	-webkit-animation: rEntrance 0.6s ease-out both;
+	        animation: rEntrance 0.6s ease-out both;
+}
+
+@-webkit-keyframes rEntrance {
+  0% {
+    -webkit-transform: translateX(800px) rotate(540deg);
+            transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes rEntrance {
+  0% {
+    -webkit-transform: translateX(800px) rotate(540deg);
+            transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+} 
+
+.download {
+  margin: 1rem;
+}
+
 
 /*Writing Page*/
 .writingcontainer1 {
@@ -372,7 +419,80 @@ ul {
   align-items:baseline;
 }
 
-/*Making Prezi emed reactive*/
+/*Writing Animations*/
+
+.wEntrance {
+	-webkit-animation: wEntrance 0.65s ease-out both;
+	        animation: wEntrance 0.65s ease-out both;
+}
+
+@-webkit-keyframes wEntrance {
+  0% {
+    -webkit-transform: rotate(540deg) scale(5);
+            transform: rotate(540deg) scale(5);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+@keyframes wEntrance {
+  0% {
+    -webkit-transform: rotate(540deg) scale(5);
+            transform: rotate(540deg) scale(5);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+
+
+/*Time Line CSS*/
+
+.tEntrance{
+  -webkit-animation: tEntrance 0.6s ease-out both;
+          animation: tEntrance 0.6s ease-out both;
+}
+
+@-webkit-keyframes tEntrance {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes tEntrance {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/*Making Prezi embed reactive*/
 
 .timeline {
   position:relative;
